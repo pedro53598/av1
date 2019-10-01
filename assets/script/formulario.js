@@ -6,8 +6,8 @@
 
         div.innerHTML = `
         <fieldset>
-        <label for="task-1">Nome do filho(a):</label><input type="text" id="task-1" class="name" style"color:white" name="name-${i++}" placeholder="Digite o nome"/><input type="button" value="Adicionar" id="add" /></br>
-        <label for="task-2">Idade do filho(a):</label><input type="number" class="idade" id="task-2" style"color:white" name="idade-${k++}"/><button id="del" style="color:white" >Excluir</button>
+        <label for="task-1">Nome do filho(a):</label><input type="text" id="task-1" class="name" style"color:black" name="name-${i++}" placeholder="Digite o nome"/><input style='color:black' type="button" value="Adicionar" id="add" /></br>
+        <label for="task-2">Idade do filho(a):</label><input type="number" class="idade" id="task-2" style"color:black" name="idade-${k++}"/><button id="del" style='color:black' >Excluir</button>
         </fieldset>
         `;
 
